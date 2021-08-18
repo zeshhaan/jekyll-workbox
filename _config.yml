@@ -1,0 +1,31 @@
+name: "personal blog"
+short_name: "blog"
+url: "https://mysite.com"
+language: "en"
+lang_direction: "ltr"
+color: "#1678fb"
+
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

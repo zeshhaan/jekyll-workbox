@@ -1,0 +1,23 @@
+---
+# front matter tells Jekyll to process Liquid
+title: Home
+---
+
+<h1>{{ "Mohammed Zeeshan" }}</h1>
+<img
+  src="/assets/images/screenshots/screenshot-0-1280x800.png"
+  alt="same-origin image"
+/>
+<h2>{{"Latest Posts"}}</h2>
+<img
+  src="https://assets1.cleartax-cdn.com/cleartax/images/1629204785_wazirx.png"
+  alt="cross-origin image"
+/>
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    {{ post.excerpt }}
+  </li>
+  {% endfor %}
+</ul>

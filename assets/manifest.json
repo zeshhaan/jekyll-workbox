@@ -1,0 +1,35 @@
+{
+  "name": "Clear",
+  "short_name": "Clear by ClearTax",
+  "theme_color": "#1678FB",
+  "background_color": "#1678FB",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "lang": "en-US",
+  "orientation": "any",
+  "screenshots": [
+    {
+      "src": "/assets/images/screenshots/screenshot-0-1280x800.png",
+      "type": "image/png",
+      "sizes": "1280x800"
+    },
+    {
+      "src": "/assets/images/screenshots/screenshot-1-750x1334.png",
+      "type": "image/png",
+      "sizes": "750x1334"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/assets/images/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

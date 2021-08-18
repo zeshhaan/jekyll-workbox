@@ -1,0 +1,81 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  color: #8d99ae;
+  background-color: #2b2d42;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  width: 90vw;
+  width: clamp(16rem, 90vw, 70rem);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  position: relative;
+}
+
+.current {
+  color: #edf2f4;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  color: #edf2f4;
+  transition: background-color 0.18s ease;
+}
+
+a:hover {
+  background-color: #8d99ae;
+  color: #edf2f4;
+  padding: 5px 8px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+  color: #edf2f4;
+}
+
+h3,
+p {
+  padding: 0px 10px;
+}
+
+
+/*
+ * Install button 
+ */
+ #install {
+  background-color:hsl(420, 50%, 50%);
+  border-radius: 50%;
+  border: .25rem solid var(--background);
+  bottom: 1rem;
+  cursor: pointer;
+  height: 3rem;
+  left: 1rem;
+  outline: 0;
+  position: fixed;
+  width: 3rem;
+  z-index: 20;
+  display: none;
+}
+
+#install svg {
+  fill: var(--background);
+}
+
+#install:focus {
+  box-shadow: 0 0 0 2px var(--color);
+}
