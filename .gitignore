@@ -1,7 +1,7 @@
 sw-old.js
+.DS_Store
+sw-guide.md
 .jekyll-cache/
 _site/
 .sass-cache/
 .jekyll-metadata
-sw-guide.md/
-.DS_Store
