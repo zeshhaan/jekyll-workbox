@@ -3,3 +3,5 @@ sw-old.js
 _site/
 .sass-cache/
 .jekyll-metadata
+sw-guide.md/
+.DS_Store
