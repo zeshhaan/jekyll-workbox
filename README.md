@@ -1,0 +1,1 @@
+SW logic is defined in [SW.js](https://github.com/zeshhaan/jekyll-workbox/blob/master/sw.js)

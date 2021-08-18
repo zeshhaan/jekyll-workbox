@@ -37,7 +37,7 @@ const {
   imageCache,
 } = workbox.recipes;
 
-const MY_URL_STRING = new URL("/blog.html", location).toString();
+const MY_URL_STRING = new URL("/", location).toString();
 
 registerRoute(
   // Match a request for a URL, or subresource request originating from that URL.
