@@ -22,6 +22,7 @@ workbox.setConfig({ debug: true });
 // 3. home page should be fetched from cache all the time
 // 4. when offline, all other routes will be fetched from /offline.html
 
+//importing all the library components just to make sure that they available when loaded when testing
 const { navigationPreload } = workbox;
 const { registerRoute, NavigationRoute, setDefaultHandler, setCatchHandler } =
   workbox.routing;
