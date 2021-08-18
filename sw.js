@@ -45,6 +45,5 @@ registerRoute(
   ({ request }) =>
     request.url === MY_URL_STRING ||
     request.headers.get("Referer") === MY_URL_STRING,
-  // Put whatever strategy, plugins, etc. you want here.
   new StaleWhileRevalidate()
 );
